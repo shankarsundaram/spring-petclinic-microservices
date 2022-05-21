@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        echo 'hello'
-        sh '../mvnw spring-boot:run'
+        sh './mvnw spring-boot:run'
       }
     }
 
